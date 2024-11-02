@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《形聲考》猜迷遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>《形聲考》猜迷遊戲</h1>
+    <div id="main-menu">
+        <button id="play-sound-symbol">猜聲符</button>
+        <button id="play-middle-sound">猜中古音</button>
+        <button id="play-sound-domain">猜聲域</button>
+    </div>
+    
+    <div id="game" style="display: none;">
+        <div class="question" id="question">正在載入遊戲...</div>
+        <div class="options" id="options"></div>
+        <div class="button-container">
+            <button id="next-button">下一題</button>
+            <button id="back-button">返回主頁</button> <!-- 返回按鈕 -->
+        </div>
+    </div>    
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
